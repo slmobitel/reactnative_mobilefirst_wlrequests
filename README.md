@@ -18,7 +18,7 @@ This plugin supports for get,post,put,delete worklight requests on queryParams, 
 #### Android
 
 1. Open up `android/app/src/main/java/[...]/MainActivity.java`
-  - Add `import com.reactlibrary.RNMobilefirstWlRequestsPackage;` to the imports at the top of the file
+  - Add `import com.reactmfwllibrary.RNMobilefirstWlRequestsPackage;` to the imports at the top of the file
   - Add `new RNMobilefirstWlRequestsPackage()` to the list returned by the `getPackages()` method
 2. Append the following lines to `android/settings.gradle`:
   	```
